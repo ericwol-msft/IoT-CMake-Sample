@@ -1,6 +1,7 @@
 cmake_minimum_required (VERSION 3.7)
-PROJECT(iothub_device_sample C)
+PROJECT(iothub_device_sample_project C)
 
+# Set Azure IoT SDK C settings
 set(use_mqtt ON CACHE  BOOL "Set mqtt on" FORCE )
 set(skip_samples ON CACHE  BOOL "Set slip_samples on" FORCE )
 set(BUILD_TESTING OFF CACHE  BOOL "Set BUILD_TESTING off" FORCE )
